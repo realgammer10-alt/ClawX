@@ -298,6 +298,8 @@ Configure a general-purpose AI agent that can answer questions, draft emails, su
 ### 📊 Automated Monitoring
 Set up scheduled agents to monitor news feeds, track prices, or watch for specific events. Results are delivered to your preferred notification channel.
 
+The Dashboard page also provides live Gateway status, Gateway and channel API health checks, per-account channel connectivity, and response timings. Checks refresh automatically every 30 seconds and can be run on demand.
+
 ### 💻 Developer Productivity
 Integrate AI into your development workflow. Use agents to review code, generate documentation, or automate repetitive coding tasks.
 

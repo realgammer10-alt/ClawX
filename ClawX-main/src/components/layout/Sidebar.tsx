@@ -21,6 +21,7 @@ import {
   Check,
   X,
   Cpu,
+  Activity,
   ImagePlus,
   Moon,
   ChevronRight,
@@ -315,6 +316,7 @@ export function Sidebar() {
   const extraNavItems = rendererExtensionRegistry.getExtraNavItems();
 
   const coreNavItems = [
+    { to: '/dashboard', icon: <Activity className="h-4 w-4" strokeWidth={2} />, label: t('dashboard:monitoring.title'), testId: 'sidebar-nav-dashboard' },
     { to: '/models', icon: <Cpu className="h-4 w-4" strokeWidth={2} />, label: t('sidebar.models'), testId: 'sidebar-nav-models' },
     { to: '/agents', icon: <Bot className="h-4 w-4" strokeWidth={2} />, label: t('sidebar.agents'), testId: 'sidebar-nav-agents' },
     { to: '/channels', icon: <Network className="h-4 w-4" strokeWidth={2} />, label: t('sidebar.channels'), testId: 'sidebar-nav-channels' },
